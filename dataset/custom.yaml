@@ -1,0 +1,13 @@
+path : /Users/wbagger/Desktop/yolofr/dataset
+train: train/images  # path to training images
+val: test/images  # path to validation images
+
+nc: 3  # number of classes (adjust based on your dataset)
+names: ["kiwi","mango","orange"]
+
+img_size: [450, 450]  # image size for training
+
+batch_size: 16   # batch size for training
+epochs: 10      # number of training epochs
+
+# Other training settings...
